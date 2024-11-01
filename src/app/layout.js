@@ -23,6 +23,21 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      <div className="w-3/4 m-auto font-light font-sans invis-par">
+      
+        <div className="flex items-end gap-10 pb-2 max-md:text-sm max-sm:gap-2 max-md:gap-5">
+          <h2 className="pt-5 xl:text-5xl max-xl:text-3xl max-md:text-lg max-sm:w-0 max-sm:invisible">Sentiment.JS</h2>
+          <div className="hover:bg-white hover:text-gray-800 xl:text-xl">Examples</div>
+          <div className="hover:bg-white hover:text-gray-800 xl:text-xl">Templates</div>
+          <div className="hover:bg-white hover:text-gray-800 xl:text-xl max-md:w-0 max-md:invisible">Development</div>
+          <div className="flex-grow"></div>
+          <div className="hover:bg-white hover:text-gray-800 xl:text-xl">Sign up</div>
+          <div className="hover:bg-white hover:text-gray-800 xl:text-xl">Log In</div>
+        </div>
+        <hr className="invisible max-md:visible"></hr>
+
+
+    </div>
         {children}
       </body>
     </html>
