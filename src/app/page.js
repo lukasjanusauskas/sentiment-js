@@ -1,6 +1,6 @@
-
 export default function Home() {
   let text;
+
   return (
     <div className = "w-3/4 m-auto my-20 flex flex-row gap-10">
       <textarea rows="20" className="block p-2.5 w-2/3 text-md font-mono rounded-lg border bg-zinc-800 border-gray-300 placeholder-gray-400 text-white"

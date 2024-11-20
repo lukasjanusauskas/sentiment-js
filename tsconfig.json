@@ -21,14 +21,16 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "src/app/api/sent/route.js"  ],
+    "**/*.tsx",
+    "src/app/api/sent/route.ts"
+  ],
   "exclude": [
     "node_modules"
   ]

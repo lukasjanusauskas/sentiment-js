@@ -30,11 +30,11 @@ export default function RootLayout({ children }) {
           <Link href="/">
             <h2 className="pt-5 xl:text-5xl max-xl:text-3xl max-md:text-lg max-sm:w-0 max-sm:invisible">Sentiment.JS</h2>
           </Link>
-          <div className="hover:bg-white hover:text-gray-800 xl:text-xl">Examples</div>
+          <Link href="/examples" className="hover:bg-white hover:text-gray-800 xl:text-xl">Examples</Link>
           <Link href="https://github.com/lukasjanusauskas/sentiment-js" className="hover:bg-white hover:text-gray-800 xl:text-xl max-md:w-0 max-md:invisible">Development</Link>
           <div className="flex-grow"></div>
           <Link href="/signup" className="hover:bg-white hover:text-gray-800 xl:text-xl">Sign up</Link>
-          <div className="hover:bg-white hover:text-gray-800 xl:text-xl">Log In</div>
+          <Link href="/login" className="hover:bg-white hover:text-gray-800 xl:text-xl">Log In</Link>
         </div>
         <hr className="invisible max-md:visible"></hr>
 
