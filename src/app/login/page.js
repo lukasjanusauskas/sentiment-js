@@ -1,4 +1,3 @@
-import { useSession } from 'next-auth/react';
 import Form from 'next/form'
 
 export default function Home() {

@@ -30,7 +30,7 @@
     "**/*.ts",
     "**/*.tsx",
     "src/app/api/sent/route.ts"
-  ],
+, "src/app/users/[user_id]/page.js"  ],
   "exclude": [
     "node_modules"
   ]
