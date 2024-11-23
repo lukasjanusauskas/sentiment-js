@@ -8,4 +8,4 @@ export default async function Page({ params }) {
       <h1>User projects: { user_id }</h1>
     </div>
   )
-} 
+}
